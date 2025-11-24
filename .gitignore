@@ -1,16 +1,12 @@
-# Python cache
 __pycache__/
 *.pyc
 *.pyo
 
-# OK autograder
+# OK autograder cache
 *.ok
+.ok_history
+.ok_messages
 hw01/ok/
 
-# System files
+# OS system files
 .DS_Store
-
-# Virtual environment
-venv/
-.env/
-.venv/
