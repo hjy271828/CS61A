@@ -1,0 +1,35 @@
+1.  python3 -i xxx.py
+
+2.
+in the functions in the script :
+"""xxxxxxxxxxxxx
+>>> a
+2
+>>>b
+4
+"""
+python3 -m doctest -v xxx.py
+
+3.False value in python:
+    0,False,'',None
+  True value in python:
+    Anything else (True)
+
+4.>>> assert xxxx(false value),'That is false'
+
+  >>> That is false
+
+5.Arbitrary Arguments - *args
+If you do not know how many arguments will be passed into your function, add a * before the parameter name.
+This way, the function will receive a tuple of arguments and can access the items accordingly:
+
+def my_function(*kids):
+  print("The youngest child is " + kids[2])
+
+my_function("Emil", "Tobias", "Linus")
+
+What is *args?
+The *args parameter allows a function to accept any number of positional arguments.
+Inside the function, args becomes a tuple containing all the passed arguments:
+
+
